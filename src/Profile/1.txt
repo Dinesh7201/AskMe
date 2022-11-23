@@ -1,0 +1,31 @@
+<View >
+      <View>
+      <Text>Name: {route.params.Name}</Text>
+      </View>
+    </View>
+
+    <View style={{ flex: 1, textAlign: 'right',alignSelf: 'flex-end'}}>
+             <TouchableOpacity onPress={() => navigation.navigate('edit')}>
+                     <Text
+          style={styles.box}>
+          <Icon name="account-edit" color="blue" size={40}/>
+        </Text>
+      </TouchableOpacity>
+      {/* <Text>Name: {route.params.Name}</Text> */}
+    </View>
+
+
+    <View style={{textAlign: 'right',alignSelf: 'flex-end'}}>
+      <TouchableOpacity onPress={() => navigation.navigate('edit')}>
+                     <Text
+          style={styles.box}>
+          <Icon name="account-edit" color="blue" size={40}/>
+        </Text>
+      </TouchableOpacity>
+      </View>
+             
+      <View>
+      <Text>Name: {route.params.name}</Text>
+      <Text>Email: {route.params.email}</Text>
+      <Text>Age: {route.params.age}</Text>
+      </View>

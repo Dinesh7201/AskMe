@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710221012764",
+    "project_id": "metahub-493fa",
+    "storage_bucket": "metahub-493fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710221012764:android:eb4a22183e03e9bd3764d9",
+        "android_client_info": {
+          "package_name": "com.askme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710221012764-fnfbc8j90tmg9eil85hvqpbvb0qbgqtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG2p79K5onVWKIpz2FfyewWeZrVktAlMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710221012764-fnfbc8j90tmg9eil85hvqpbvb0qbgqtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
